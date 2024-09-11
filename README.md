@@ -11,9 +11,48 @@ AI Agents for real use cases
 Most AI agent frameworks are hard to use.We provide power with simplicity.                                           
 Automate your most important workflows quickly.            
 ### (2)核心概念
-**定义Agent:** 每个Agent都有自己的角色、目标和背景故事                 
-**定义Task:** Task由用户定义，Agent根据分配的Task执行特定操作。Task通常包含明确的描述和期望输出                     
-**多Agent协作:** 多个Agent可以通过顺序或并行的方式协同工作。不同的Agent专注于不同的子Task                  
+**Agents:**          
+是一个自主可控单元，通过编程可以实现执行任务、作出决定、与其他Agent协作交流          
+可类比为团队中的一员，拥有特定的技能和任务                    
+属性:             
+role(角色):定义Agent在团队中的角色功能                              
+goal(目标):Agent实现的目标                             
+backstory(背景信息):为Agent提供上下文                                    
+**Tasks:**               
+分配给Agent的具体任务，提供执行任务所需的所有细节                          
+属性:                         
+description(任务描述):简明扼要说明任务要求                                                 
+agent(分配的Agent):分配负责该任务的Agent                                                
+expected_output(期望输出):任务完成情况的详细描述                                                         
+Tools(工具列表):为Agent提供可用于执行该任务的工具列表                   
+output_json(输出json):输出一个json对象，只能输出一种数据格式                    
+output_file(工具列表):将任务结果输出到一个文件中，指定输出的文件格式                                                     
+context(上下文):指定其输出被用作该任务上下文的任务                                  
+**Processes**                      
+CrewAI中负责协调Agent执行任务                        
+类似于团队中的项目经理                        
+确保任务分配和执行效率与预定计划保持一致                       
+目前拥有两种实施机制:                             
+sequential(顺序流程):反映了crew中动态的工作流程，以深思熟虑的和系统化的方式推进各项任务，按照任务列表中预定义的顺序执行，一个任务的输出作为下一个任务的上下文            
+hierarchical(分层流程):允许指定一个自定义的管理Agent，负责监督任务执行，包括计划、授权和验证。任务不是预先分配的，而是根据Agent的能力进行任务分配，审查产出并评估任务完成情况              
+**Crews:**          
+1个crew代表一组合作完成一系列任务的Agent                        
+每个crew定义了任务执行策略、Agent协作和整体工作流程                                          
+属性:                               
+Tasks(任务列表):分配给crew的任务列表                                                          
+Agents(Agent列表):分配给crew的Agent列表                                                         
+Process(背景信息):crew遵循的流程                              
+manager_llm(大模型):在hierarchical模式下指定大模型                                                                             
+language(语言):指定crew使用的语言                                                                                               
+language_file(语言文件):指定crew使用的语言文件                        
+**Pipleline:**          
+在CrewAI中,pipleline代表一种结构化的工作流程，允许多个crew顺序或并行执行           
+提供了一种组织涉及多个阶段的复杂流程的方法，其中一个阶段的输出可作为后续阶段的输入                                                        
+关键术语:                               
+Stage:pipleline中的1个独立部分，可以是1个顺序crews，也可以是一个并行的crews                                                                       
+Run:运行pipleling处理的单个实例                                                                    
+Branch:Stage内的并行执行                                                      
+Trace:单个输入在整个pipleline中的运行轨迹、捕捉它所经历的路径和转换                                                  
 
 ## 1.2 应用案例介绍
 本次使用的案例为官方案例                            
