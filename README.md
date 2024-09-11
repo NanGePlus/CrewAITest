@@ -1,3 +1,8 @@
+# 0、项目相关视频
+(1)【AI智能体Agent应用】使用CrewAI+FastAPI打造多Agent协作应用并对外提供API服务，支持gpt、通义千问、Ollama本地大模型对比测试                
+https://www.bilibili.com/video/BV1N44reDEt3/?vd_source=30acb5331e4f5739ebbad50f7cc6b949            
+https://youtu.be/2TE5DlYlvGw                   
+
 # 1、项目简介
 使用CrewAI+FastAPI搭建多Agent协作应用并对外提供API服务                                                 
 ## 1.1 CrewAI介绍
