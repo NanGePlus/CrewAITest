@@ -16,7 +16,7 @@ headers = {"Content-Type": "application/json"}
 # 默认非流式输出 True or False
 stream_flag = False
 # 用户输入
-content = "物联网"
+content = "人工智能"
 data = {
     "messages": [{"role": "user", "content": content}],
     "stream": stream_flag,
