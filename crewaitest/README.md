@@ -1,5 +1,8 @@
 # 1、本期视频案例介绍
-本次使用的案例为官方案例，旨在帮助大家熟悉CrewAI的整体开发环境搭建及业务流程                                 
+本次使用的案例为官方案例，旨在帮助大家熟悉CrewAI的整体开发环境搭建及业务流程             
+视频链接:【AI智能体Agent应用】使用CrewAI+FastAPI打造多Agent协作应用并对外提供API服务，支持gpt、通义千问、Ollama本地大模型对比测试                                    
+https://www.bilibili.com/video/BV1N44reDEt3/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                   
+https://youtu.be/2TE5DlYlvGw                     
 ### (1)定义了两个Agent        
 **研究员:**            
   角色:{topic}高级数据研究员            
