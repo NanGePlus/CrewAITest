@@ -1,0 +1,14 @@
+research_task:
+  description: >
+    研究 {topic} 的最新技术趋势。请关注最新的技术进展，评估它们的优缺点，并提供详细的分析。
+    分析内容应该包括至少三段内容，介绍当前趋势、技术的利弊及其潜在影响。
+  expected_output: >
+    一份包含5个要点的清单，介绍 {topic} 的技术前沿动态，最新技术发展趋势。
+  agent: researcher
+
+reporting_task:
+  description: >
+    根据研究员提供的技术分析内容，撰写一份关于 {topic} 的技术趋势报告。请确保报告条理清晰，包含洞察力，并阐述技术的潜在影响。
+  expected_output: >
+    一份详细的四段报告，解释 {topic} 技术趋势及其影响，适合行业读者阅读。
+  agent: reporting_writer
