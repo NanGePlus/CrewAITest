@@ -12,9 +12,8 @@ CrewAI是一个用于构建多Agent系统的工具，它能够让多个具有不
 官网:https://www.crewai.com/                                          
 GitHub:https://github.com/crewAIInc/crewAI                                          
 官方首页的介绍:                          
-AI Agents for real use cases                                           
-Most AI agent frameworks are hard to use.We provide power with simplicity.                                           
-Automate your most important workflows quickly.            
+The Leading Multi-Agent Platform                    
+Streamline workflows across industries with powerful AI agents. Build and deploy automated workflows using any LLM and cloud platform.                  
 ### (2)核心概念
 **Agents:**          
 是一个自主可控单元，通过编程可以实现执行任务、作出决定、与其他Agent协作交流          
