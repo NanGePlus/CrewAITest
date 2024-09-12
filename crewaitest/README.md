@@ -145,6 +145,7 @@ https://gitee.com/NanGePlus/CrewAITest
 直接将下载的文件夹中的文件拷贝到新建的项目目录中               
 
 ## 3.4 安装项目依赖          
+命令行终端中执行cd crewaitest 命令进入到该文件夹内，然后执行如下命令安装依赖包                                           
 pip install -r requirements.txt            
 每个软件包后面都指定了本次视频测试中固定的版本号           
 
