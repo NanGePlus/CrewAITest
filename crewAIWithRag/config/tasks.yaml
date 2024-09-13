@@ -1,0 +1,14 @@
+retrieval_task:
+  description: >
+    根据用户提供的健康问题: {topic} ，使用提供的外部工具tool从健康档案库中检索与其相关的所有健康信息。
+  expected_output: >
+    与用户健康问题密切相关的健康档案记录。
+  agent: retrieval_agent
+
+report_task:
+  description: >
+    根据健康档案检索专家返回的健康记录内容，再结合医生问的问题 {topic} ，撰写一份清晰、简洁的健康建议报告。报告应包括对用户当前健康状况的详细分析，并根据分析结果提供个性化的健康建议。
+    并使用提供的外部工具tool将报告内容存储到pdf文件
+  expected_output: >
+   一份包含健康状况分析和实际健康建议的报告，使用简洁的医学语言。
+  agent: report_agent
