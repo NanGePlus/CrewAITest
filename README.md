@@ -5,7 +5,7 @@
 https://www.bilibili.com/video/BV1N44reDEt3/?vd_source=30acb5331e4f5739ebbad50f7cc6b949             
 https://youtu.be/2TE5DlYlvGw    
 
-**(2)【Agent应用案例2-进阶】技术研究员智能体案例，Agent支持调用外部工具，CrewAI+FastAPI打造多Agent协作应用并对外提供API服务**                                                
+**(2)【Agent应用案例2-进阶】技术研究员智能体案例，Agent支持调用外部工具实现将生成的报告保存至PDF文件并下载至本地，CrewAI+FastAPI打造多Agent协作应用并对外提供API服务**                                                
 对应工程文件夹为:crewAIWithResearcher                             
 https://www.bilibili.com/video/BV1Sy4HeiEBn/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                  
 https://youtu.be/MGEdzUUKISw                      
