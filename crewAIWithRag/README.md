@@ -42,10 +42,15 @@ report_task:
 
 
 # 2、前期准备工作
-详细介绍可查看该视频:           
-【AI智能体Agent基础应用】使用CrewAI+FastAPI打造多Agent协作应用并对外提供API服务，支持gpt、通义千问、Ollama本地大模型对比测试                            
-https://www.bilibili.com/video/BV1N44reDEt3/?vd_source=30acb5331e4f5739ebbad50f7cc6b949             
-https://youtu.be/2TE5DlYlvGw                 
+往期相关视频:                 
+(1)【Agent应用案例1-基础】使用CrewAI+FastAPI打造多Agent协作应用并对外提供API服务，支持gpt、通义千问、Ollama本地大模型对比测试                      
+对应工程文件夹为:crewaitest                   
+https://www.bilibili.com/video/BV1N44reDEt3/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                              
+https://youtu.be/2TE5DlYlvGw                                            
+(2)【Agent应用案例2-进阶】技术研究员智能体案例，Agent支持调用外部工具实现将生成的报告保存至PDF文件并下载至本地，CrewAI+FastAPI打造多Agent协作应用并对外提供API服务                    
+对应工程文件夹为:crewAIWithResearcher                    
+https://www.bilibili.com/video/BV1Sy4HeiEBn/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                     
+https://youtu.be/MGEdzUUKISw                                       
 ## 2.1 CrewAI介绍
 ### (1)简介
 CrewAI是一个用于构建多Agent系统的工具，它能够让多个具有不同角色和目标的Agent共同协作，完成复杂的Task                
