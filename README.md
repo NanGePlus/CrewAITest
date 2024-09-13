@@ -1,4 +1,4 @@
-**本项目为使用CrewAI+FastAPI搭建多Agent协作应用并对外提供API服务案例分享**                           
+**本项目为使用CrewAI+FastAPI搭建多Agent协作应用并对外提供API服务案例分享,大家可以按照如下顺序进行观看**                           
 **注意:** 每个文件夹对应一个应用案例，案例详情进入该文件夹参考应用的README.md中内容。         
 **(1)【Agent应用案例1-基础】使用CrewAI+FastAPI打造多Agent协作应用并对外提供API服务，支持gpt、通义千问、Ollama本地大模型对比测试**                                                
 对应工程文件夹为:crewaitest           
