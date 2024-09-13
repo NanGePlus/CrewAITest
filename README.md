@@ -10,6 +10,10 @@ https://youtu.be/2TE5DlYlvGw
 https://www.bilibili.com/video/BV1Sy4HeiEBn/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                  
 https://youtu.be/MGEdzUUKISw                      
 
+**(3)【Agent应用案例3-进阶】健康档案助手智能体案例，Agent调用外部工具使用RAG，CrewAI+FastAPI打造多Agent协作应用并对外提供API服务**             
+https://www.bilibili.com/video/BV1j94oe7ESy/?vd_source=30acb5331e4f5739ebbad50f7cc6b949               
+https://youtu.be/YYxgE4i7-OE                    
+
 
 
 
