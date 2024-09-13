@@ -148,6 +148,8 @@ https://youtu.be/thNMan45lWA
 GitHub或Gitee中下载工程文件到本地，下载地址如下：                
 https://github.com/NanGePlus/CrewAITest          
 https://gitee.com/NanGePlus/CrewAITest    
+本应用案例需要用到的汉字字体包，请下载后将文件放置在对应的工程文件夹内         
+https://pan.baidu.com/s/1fhg2ac2UUjdEXbWjJT2kuQ?pwd=1234 提取码: 1234                  
 
 ## 3.2 构建项目
 使用pycharm构建一个项目，为项目配置虚拟python环境               
