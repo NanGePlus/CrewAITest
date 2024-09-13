@@ -4,7 +4,11 @@
 另一个Agent负责根据检索的内容和问题进行健康分析并最终调用外部工具把生成的报告以PDF文件保存到本地             
 回忆下RAG的功能:                 
 离线步骤:文档加载->文档切分->向量化->灌入向量数据库                              
-在线步骤:获取用户问题->用户问题向量化->检索向量数据库->将检索结果和用户问题填入prompt模版->用最终的prompt调用LLM->由LLM生成回复        
+在线步骤:获取用户问题->用户问题向量化->检索向量数据库->将检索结果和用户问题填入prompt模版->用最终的prompt调用LLM->由LLM生成回复     
+关于RAG的应用，大家可以观看这期视频:             
+【流程实操】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享，一份代码搞定多类型大模型集成                         
+https://www.bilibili.com/video/BV1ryHxesEHs/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                       
+https://youtu.be/xAEi5CWEIl0                      
 ### (1)定义了两个Agent        
 retrieval_agent:              
   role: >                   
