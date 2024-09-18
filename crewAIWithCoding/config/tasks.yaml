@@ -1,0 +1,25 @@
+code_task:
+  description: >
+    你将使用python语言编写一个游戏，游戏具体说明如下：
+    {game}
+  expected_output: >
+    你的最终答案必须是完整的python代码，且只允许是python代码，不需要其他内容。
+  agent: senior_engineer_agent
+
+review_task:
+  description: >
+    你会对使用python语言编写一个游戏提供帮助，游戏具体说明如下：
+    {game}
+    你会使用获得的代码进行错误检查。检查逻辑错误、语法错误、缺失导入、变量声明、括号不匹配以及安全漏洞。
+  expected_output: >
+    你的最终答案必须是完整的python代码，且只允许是python代码，不需要其他内容。
+  agent: qa_engineer_agent
+
+evaluate_task:
+  description: >
+    你会对使用python语言编写一个游戏提供帮助，游戏具体说明如下：
+    {game}
+    你会仔细检查编写的代码，确保代码完整，并完成它应该完成的工作。
+  expected_output: >
+    你的最终答案必须是完整的python代码，且只允许是python代码，不需要其他内容。
+  agent: chief_qa_engineer_agent
