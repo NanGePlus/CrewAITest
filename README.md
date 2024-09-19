@@ -14,6 +14,10 @@ https://youtu.be/MGEdzUUKISw
 https://www.bilibili.com/video/BV1j94oe7ESy/?vd_source=30acb5331e4f5739ebbad50f7cc6b949               
 https://youtu.be/YYxgE4i7-OE                    
 
+**(4)【【Agent应用案例4-进阶】多个Agent协作完成高效软件编码，CrewAI+FastAPI打造多Agent协作应用并对外提供API服务**                   
+https://www.bilibili.com/video/BV1cNtJeJEPA/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                
+https://youtu.be/U_CzuyKNKkY                 
+
 
 
 
