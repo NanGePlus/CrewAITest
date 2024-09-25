@@ -23,7 +23,8 @@ https://www.bilibili.com/video/BV1i5bAeAEWn/?vd_source=30acb5331e4f5739ebbad50f7
 https://youtu.be/w8uxBuVQVlg                              
 
 **(6)【Agent应用案例6-进阶】在任务执行中做HumanFeedback(人类反馈)，CrewAI+FastAPI打造多Agent协作应用并对外提供API服务**                
-https://youtu.be/ltu34eawkvA                
+https://www.bilibili.com/video/BV1qcxgeVEuF/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                               
+https://youtu.be/ltu34eawkvA                                         
 
 
 
