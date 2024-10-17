@@ -1,0 +1,39 @@
+research_task:
+  description: >
+    基于客户提供的{customer_domain}对客户提供的产品和竞争对手进行深入的剖析。请确保找到任何有趣的相关信息，日期限定为2024年。
+    我们正在就以下项目与他们合作： 
+    {project_description}。
+  expected_output: >
+    关于客户、客户提供的产品和竞争对手的完整报告、包括指标统计、偏好、市场定位和受众参与度。
+  agent: lead_market_analyst
+
+project_understanding_task:
+  description: >
+    了解{project_description}的项目细节和目标受众。查看提供的任何材料，并根据需要收集更多信息。
+  expected_output: >
+    项目的详细摘要和目标受众的简介。
+  agent: chief_marketing_strategist
+
+marketing_strategy_task:
+  description: >
+    基于客户提供的{customer_domain}和{project_description}为项目制定全面的营销战略。
+    充分使用从研究任务和项目理解任务中获得的见解来制定高质量的战略。
+  expected_output: >
+    一份详细的营销战略文件，概述目标、目标受众、关键信息和建议的策略，确保包含名称、策略、渠道和关键绩效指标。
+  agent: chief_marketing_strategist
+
+campaign_idea_task:
+  description: >
+    为{project_description}开发富有创意的营销活动构思。
+    确保创意新颖、吸引人，并与整体营销战略保持一致。
+  expected_output: >
+    列出 5 个活动设想，每个设想都有简要说明和预期影响。
+  agent: creative_content_creator
+
+copy_creation_task:
+  description: >
+    根据已获批准的{project_description}活动创意制作营销文案。
+    确保文案引人注目、清晰明了，并适合目标受众。
+  expected_output: >
+    每个活动创意的营销副本。
+  agent: creative_content_creator
