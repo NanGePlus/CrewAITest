@@ -119,14 +119,14 @@ https://gitee.com/NanGePlus/CrewAITest
 命令行终端中执行cd crewAIWithPipelines 命令进入到该文件夹内，然后执行如下命令安装依赖包                                           
 pip install -r requirements.txt            
 每个软件包后面都指定了本次视频测试中固定的版本号         
-**注意:** 本项目对应的版本为crewai=0.70.1、crewai-tools=0.12.1，建议先使用要求的对应版本进行本项目测试，避免因版本升级造成的代码不兼容。测试通过后，可进行升级测试。          
 
 # 4、项目测试          
 ## (1)升级crewai、crewai-tools为最新版本
-若基于原项目环境，则需要升级crewai、crewai-tools为最新版本(crewai=0.70.1、crewai-tools=0.12.1),执行如下命令进行升级                
+若基于原项目环境，则需要升级crewai、crewai-tools为最新版本,执行如下命令进行升级                
 pip install --upgrade crewai crewai-tools                        
 升级完成之后，可执行如下命令进行版本查询确认是否升级成功                 
 pip freeze | grep crewai        
+**注意:** 截止2024.10.19本项目对应的版本为crewai=0.74.2、crewai-tools=0.13.2，建议先使用要求的对应版本进行本项目测试，避免因版本升级造成的代码不兼容。测试通过后，可进行升级测试。        
 ## (2)单独测试pipeline
 首先测试crew是否能够正常运行、其次测试pipeline(官方提供的方式)、最后测试pipeline(优化后的方式)                       
 在使用python crewPipeline.py命令启动脚本前，需根据自己的实际情况调整utils/myLLM.py代码中参数           
