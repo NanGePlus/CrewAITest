@@ -6,7 +6,7 @@ https://www.bilibili.com/video/BV1i5bAeAEWn/?vd_source=30acb5331e4f5739ebbad50f7
 https://youtu.be/w8uxBuVQVlg                                 
 
 **本次分享内容主要为:**               
-(1)将crewai由0.55.2升级为0.70.1，crewai-tools由0.12.0升级为0.12.1，并解决因版本升级出现的问题                            
+(1)将crewai由0.55.2升级为0.74.2，crewai-tools由0.12.0升级为0.13.2（截止2024.10.19），并解决因版本升级出现的问题                            
 (2)改写crew.py代码实现crewai的pipelines功能                              
 (3)将pipelines功能集成到main服务中对外提供API接口服务，进行接口联调测试                      
 
