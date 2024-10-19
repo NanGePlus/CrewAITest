@@ -24,7 +24,11 @@ https://youtu.be/w8uxBuVQVlg
 
 **(6)【Agent应用案例6-进阶】在任务执行中做HumanFeedback(人类反馈)，CrewAI+FastAPI打造多Agent协作应用并对外提供API服务**                
 https://www.bilibili.com/video/BV1qcxgeVEuF/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                               
-https://youtu.be/ltu34eawkvA                                         
+https://youtu.be/ltu34eawkvA                         
+
+**(7)快速搭建AI Agent工作流，硬核干货源码共享，CrewAI中Pipelines功能实操、源码剖析，同时支持gpt大模型、主流国产大模型、本地开源大模型**                    
+https://www.bilibili.com/video/BV18LCdYpE5Z/?vd_source=30acb5331e4f5739ebbad50f7cc6b949             
+https://youtu.be/BhXZn2NaJYs                   
 
 
 
