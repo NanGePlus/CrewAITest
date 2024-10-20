@@ -1,0 +1,8 @@
+research_task:
+  description: >
+    基于客户提供的{customer_domain}对客户提供的产品和竞争对手进行深入的剖析。请确保找到任何有趣的相关信息，日期限定为2024年。
+    我们正在就以下项目与他们合作： 
+    {project_description}。
+  expected_output: >
+    关于客户、客户提供的产品和竞争对手的完整报告、包括指标统计、偏好、市场定位和受众参与度。
+  agent: lead_market_analyst
