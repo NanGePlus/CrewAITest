@@ -28,7 +28,11 @@ https://youtu.be/ltu34eawkvA
 
 **(7)快速搭建AI Agent工作流，硬核干货源码共享，CrewAI中Pipelines功能实操、源码剖析，同时支持gpt大模型、主流国产大模型、本地开源大模型**                    
 https://www.bilibili.com/video/BV18LCdYpE5Z/?vd_source=30acb5331e4f5739ebbad50f7cc6b949             
-https://youtu.be/BhXZn2NaJYs                   
+https://youtu.be/BhXZn2NaJYs                 
+
+**(8)快速搭建AI Agent复杂工作流，硬核干货源码共享，CrewAI中Flows核心功能实操、源码剖析，同时支持gpt大模型、主流国产大模型、本地开源大模型**               
+https://www.bilibili.com/video/BV1jgyeYgEyb/?vd_source=30acb5331e4f5739ebbad50f7cc6b949              
+https://youtu.be/RfnQHdDVg68               
 
 
 
