@@ -122,7 +122,10 @@ https://youtu.be/myVgyitFzrA
 (1)GPT大模型使用方案 
 (2)非GPT大模型(国产大模型)使用方案(OneAPI安装、部署、创建渠道和令牌)
 (3)本地开源大模型使用方案(Ollama安装、启动、下载大模型)                 
-可参考如下视频进行安装，【大模型应用开发基础】**********************                                                            
+可参考如下视频:                   
+提供一种LLM集成解决方案，一份代码支持快速同时支持gpt大模型、国产大模型(通义千问、文心一言、百度千帆、讯飞星火等)、本地开源大模型(Ollama)                  
+https://www.bilibili.com/video/BV12PCmYZEDt/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                 
+https://youtu.be/CgZsdK43tcY                                                           
 
 
 # 3、项目初始化
