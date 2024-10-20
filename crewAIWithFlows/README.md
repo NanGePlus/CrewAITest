@@ -119,13 +119,13 @@ https://www.bilibili.com/video/BV1q9HxeEEtT/?vd_source=30acb5331e4f5739ebbad50f7
 https://youtu.be/myVgyitFzrA          
 
 ## 2.2 大模型相关配置
-(1)GPT大模型使用方案 
-(2)非GPT大模型(国产大模型)使用方案(OneAPI安装、部署、创建渠道和令牌)
-(3)本地开源大模型使用方案(Ollama安装、启动、下载大模型)                 
-可参考如下视频:                   
-提供一种LLM集成解决方案，一份代码支持快速同时支持gpt大模型、国产大模型(通义千问、文心一言、百度千帆、讯飞星火等)、本地开源大模型(Ollama)                  
+(1)GPT大模型使用方案              
+(2)非GPT大模型(国产大模型)使用方案(OneAPI安装、部署、创建渠道和令牌)                 
+(3)本地开源大模型使用方案(Ollama安装、启动、下载大模型)                         
+可参考如下视频:                         
+提供一种LLM集成解决方案，一份代码支持快速同时支持gpt大模型、国产大模型(通义千问、文心一言、百度千帆、讯飞星火等)、本地开源大模型(Ollama)                       
 https://www.bilibili.com/video/BV12PCmYZEDt/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                 
-https://youtu.be/CgZsdK43tcY                                                           
+https://youtu.be/CgZsdK43tcY                                                                      
 
 
 # 3、项目初始化
@@ -148,11 +148,21 @@ pip install -r requirements.txt
 **注意:** 截止2024.10.20，本项目crewai最新版本0.74.2，crewai-tools最新版本0.13.2，建议先使用要求的对应版本进行本项目测试，避免因版本升级造成的代码不兼容。测试通过后，可进行升级测试。          
 
 # 4、项目测试          
-## (1)单独测试Flows
-在使用python flowsTest.py命令启动脚本前，需根据自己的实际情况调整utils/myLLM.py代码中参数           
-### (2)运行main脚本启动API服务
+## (1)测试官方的用例模版
+打开命令行终端执行cd crewAIWithFlows进入该文件夹下，执行crewai create flow flowsTest 创建应用案例模版工程
+在工程源码的main.py中添加如下代码段
+import os              
+os.environ["OPENAI_API_BASE"] = "https://api.wlai.vip/v1"             
+os.environ["OPENAI_API_KEY"] = "sk-dvdCgdO3LSWYgqnMiJR5NqG0eLSTM69yjryjD6LuL3lWkvf3"              
+os.environ["OPENAI_MODEL_NAME"] = "gpt-4o-mini"           
+
+最后运行python main.py进行测试             
+           
+## (2)测试Flows功能
+在使用python flowsTest.py命令启动脚本前，需根据自己的实际情况调整utils/myLLM.py代码中参数            
+## (3)集成Flows功能，运行main脚本启动API服务
 运行 python main.py                 
-### (3)运行apiTest脚本进行测试            
+## (4)运行apiTest脚本进行测试            
 在运行python apiTest.py命令启动脚本前，需根据自己的实际情况调整代码中的如下参数:                  
 **调整1:默认非流式输出 True or False**                  
 stream_flag = False                  
